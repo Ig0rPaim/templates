@@ -1,0 +1,133 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Application.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Application.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Dto.dll": {}
+        }
+      },
+      "Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Interface.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Application.Dto/1.0.0": {
+      "type": "project",
+      "path": "../Application.Dto/Application.Dto.csproj",
+      "msbuildProject": "../Application.Dto/Application.Dto.csproj"
+    },
+    "Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Application.Interface/Application.Interface.csproj",
+      "msbuildProject": "../Application.Interface/Application.Interface.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../domain/Domain.csproj",
+      "msbuildProject": "../../domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Application.Dto >= 1.0.0",
+      "Application.Interface >= 1.0.0",
+      "Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/khan/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/Application.UseCases.csproj",
+      "projectName": "Application.UseCases",
+      "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/Application.UseCases.csproj",
+      "packagesPath": "/home/khan/.nuget/packages/",
+      "outputPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/khan/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/Application.Dto.csproj": {
+              "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/Application.Dto.csproj"
+            },
+            "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/Application.Interface.csproj": {
+              "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/Application.Interface.csproj"
+            },
+            "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/Domain.csproj": {
+              "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

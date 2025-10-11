@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/Application.UseCases.csproj": {}
+  },
+  "projects": {
+    "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/Application.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/Application.Dto.csproj",
+        "projectName": "Application.Dto",
+        "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/Application.Dto.csproj",
+        "packagesPath": "/home/khan/.nuget/packages/",
+        "outputPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/khan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/Application.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/Application.Interface.csproj",
+        "projectName": "Application.Interface",
+        "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/Application.Interface.csproj",
+        "packagesPath": "/home/khan/.nuget/packages/",
+        "outputPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/khan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/Application.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/Application.UseCases.csproj",
+        "projectName": "Application.UseCases",
+        "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/Application.UseCases.csproj",
+        "packagesPath": "/home/khan/.nuget/packages/",
+        "outputPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.UseCases/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/khan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/Application.Dto.csproj": {
+                "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Dto/Application.Dto.csproj"
+              },
+              "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/Application.Interface.csproj": {
+                "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/application/Application.Interface/Application.Interface.csproj"
+              },
+              "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/Domain.csproj": {
+                "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/Domain.csproj",
+        "packagesPath": "/home/khan/.nuget/packages/",
+        "outputPath": "/home/khan/CodeBases/dotnetSetup/templates/cleanArch/domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/khan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
