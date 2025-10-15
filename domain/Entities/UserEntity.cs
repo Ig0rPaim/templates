@@ -2,7 +2,7 @@ using Domain.ValueObjects;
 
 namespace Domain.Entities;
 
-public class User
+public class UserEntity
 {
     public Guid Id { get; set; }
     public string? Name { get; set; }
@@ -11,7 +11,11 @@ public class User
     public CadastralControl? CadastralControl { get; set; }
     public ICollection<Role> Roles { get; set; }
 
-    public User(Guid id, string? name, string? email, bool isActive, CadastralControl? cadastralControl,
+    public UserEntity()
+    {   
+    }
+
+    public UserEntity(Guid id, string? name, string? email, bool isActive, CadastralControl? cadastralControl,
         ICollection<Role> roles)
     {
         Id = id;
